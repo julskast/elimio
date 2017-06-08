@@ -194,21 +194,33 @@ input {
     	display: block;
     	text-align: center;
     }
-	section {
-		max-width: 698px;
-	}
-	form {
-		padding: 4em 8em 10em;
-	}
+	
     #logo {
 		display: inline-block;
 		float: none;
 		text-align: center;
 	}
-	
+
 }
 
-
+@media only screen and (max-width: 900px) {
+	h1 {
+    	font-size: 24px;
+    }
+    h2 {
+    	font-size: 18px;
+    }
+    h3 {
+    	font-size: 18px;
+    }
+	#status {
+	
+		margin: 0em auto 0em;
+	}
+	#bluebox {
+		margin: -10em auto 0em;
+	}
+}
 
 @media only screen and (max-width: 700px) { 
 
@@ -224,19 +236,35 @@ input {
      header {
     	text-align: center;
     }
-	section {
-		max-width: 548px;
-	}	
-	form {
-		padding: 4em 2em 10em;
+    h1 {
+    	background-color: rgba(216,216,216,.2);
+    }
+    select {
+    	width: 15em;
+    }
+    #status {
+		
+		
+		background-color: #fff;
+		margin: 0em auto 0em;
+		width: 100%;
 	}
+	#bluebox {
+		margin: -10em auto 0em;
+	}	
+	
 }
 
-@media only screen and (max-width: 550px) { 
-
-	h1 {
-	
-	font-size: 36px;
+@media only screen and (max-width: 500px) { 
+	#greeting {
+		width: 100%;
+		padding: none;
+	}
+	#status {
+		margin: 0em auto 3em;
+	}
+	#bluebox {
+		padding: 2em;
 	}
 	
 }
