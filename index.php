@@ -3,6 +3,7 @@
 <head>
 	<title>Julia Kastner JS Final Project</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="image/png" href="images/football.png"/>
 </head>
 <body>
 	<header class="clearfix">
@@ -10,47 +11,22 @@
 		<a href="" target="_blank"><img id="logo" src="" alt="Logo" ></a>
 
 		<nav>
-			<a href="">First nav link</a>
-			<a href="">Second nav link</a>
-			
+			<a href="">Choose Your Team</a>
+			<a href="">Log In / Log Out</a>
 		</nav>
 	</header>
 	<section>
-		<h1></h1>
+		<h1>This is the homepage. Content TBD.</h1>
 		<h2></h2>
 	</section>
 	<section>
-		<h1>Reservations</h1>
-		<div>
-		<h2>Make a Reservation</h2>
-			<form action="">
-				<fieldset>
-			  		<p class="label">Name</p>
-			  		<input id="nameField" class="field" type="text" name="name">
-			 		<p class="label">Day</p>
-			  		<input id="dayField" class="field" type="text" name="day">
-			  		<input type="submit" value="Confirm" class="button1">
-			  	</fieldset>
-			</form> 
-		</div>
-		<div>
-		<h2>Existing Reservations</h2>
-			<table>
-				<thead>
-					<th>Name</th>
-					<th>Day</th>
-				</thead>
-			<tbody></tbody>
-			</table>
-		</div>
+		
 	</section>
     <section>
-    	<h1>Come Dine with Us</h1>
+    	
     </section>
     <section>
-    	<h1>Customer Reviews</h1>
-    	<p>“Big lettuce, big carrots, tomatoes like volleyballs.”</p>
-    	<p> — Jerry Seinfeld, on The BIG Salad</p>
+    	
     </section>
 
 	<footer>
